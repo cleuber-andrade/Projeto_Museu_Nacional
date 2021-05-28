@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional - Home</title>
+
+    <!-- Estilização customizado-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="normallize.css">   
+
+    <!--Compatibilidade HTML5-->
+    <!--[if lt IE 9]>
+        <script src="html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="container"> <!--inicio container-->
+        <header> <!--inicio header-->
+
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav>  <!--inicio navegação-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisas</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav> <!--fim navegação-->
+
+        </header> <!--fim header-->
+
+        <article id="conteudo"> <!--inico conteudo principal-->
+            <section id="capa">
+                <img src="img/museu.png">
+            </section>
+            
+            <section id="postagens">
+
+                <section id="video"> <!--inico video-->
+                    <h3>Conheça o Museu</h3>
+
+                    <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </section>  <!--fim video-->
+                
+                <section id="mapa"> <!--inicio mapa-->
+                    <h3>Mapa: Encontre o Museu</h3>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7350.420658207942!2d-43.225670593118814!3d-22.90561175751016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1618874882076!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </section> <!--fim mapa-->
+
+                <section id="exposicao"> <!--inicio exposição-->
+                    <h3>Exposições</h3>
+
+                    <ul>
+                        <li>
+                            <a href="">Os assutadores Insetos</a>
+                        </li>
+                        <li>
+                            <a href="">O crânio ded Luiza, a mulher mais antiga do Brasil</a>
+                        </li>
+                        <li>
+                            <a href="">Preguiça gigante e Tigre-dente-de-sabre</a>
+                        </li>
+                        <li>
+                            <a href="">Plantas do Brasil Central</a>
+                        </li>
+                    </ul>
+                </section> <!--fim exposição-->
+
+                <section id="historia"> <!--inicio historia-->
+                    <h3>200 anos de história</h3>
+
+                    <p>
+                        Numa ponta que avança sobre o mar, posteriormente conhecida como Ponta do Caboclo, entre as praias de Piaçaba e Santa Luzia, no Rio de Janeiro, os portugueses contruíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico qque hoje abriga o Museu Histórico Nacional.
+                    </p>
+                    <a href=""><strong>Leia Mais</strong></a>
+                </section> <!--fim historia-->
+                
+            </section>
+        </article> <!--inico conteudo principal-->
+
+        <aside> <!--inicio aside-->
+
+            <section id="depoimento">
+                <img src="img/depoimento.png">
+            </section>
+
+            <section id="visita"> <!--inicio seção visita-->
+                <h4>Faça uma visita</h4>
+                <form>
+                    <fieldset>
+                        <legend>Selecione uma data</legend>
+
+                        <label for="data">Data</label>
+                        <input class="campo" type="date" id="data" required autofocus>
+
+                        <label for="qtd">Qtds. de Pessoas</label>
+                        <input class="campo" style="width: 30px;" type="number" id="qtd" value="1" required>
+
+                    </fieldset>
+
+                    <input class="botao" type="submit" value="Verificar Disponibilidade">
+                </form>
+            </section> <!--fim seção visita-->
+
+            <section id="galeria"> <!--inicio galeria-->
+                <h4>Galeria de Fotos</h4>
+
+                <a href="">
+                    <img src="img/imagem1.jpg" height="93" width="93" >
+                </a>
+
+                <a href="">
+                    <img src="img/imagem2.jpg" height="93" width="93">
+                </a>
+
+                <a href="">
+                    <img src="img/imagem3.jpg" height="93" width="93">
+                </a>
+
+                <a href="">
+                    <img src="img/imagem4.jpg" height="93" width="93">
+                </a>
+            </section> <!--fim galeria-->
+
+        </aside> <!--fim aside-->
+
+        <footer> <!--inicio footer-->
+            <p>
+                <a href="#">Home</a>
+                <a href="#">Exposições</a>
+                <a href="#">Pesquisas</a>
+                <a href="#">Acervo</a>
+                <a href="#">Vídeos</a>
+                <a href="#">Fotos</a>
+                <a href="#">Contatos</a>                
+            </p>
+
+            <p>
+                2019 <a href="">Museu Nacional</a> - &copy; Todos os Direitos Reservados
+            </p>
+        </footer> <!--fim footer-->
+
+    </div> <!--fim container-->
+</body>
+</html>
+
