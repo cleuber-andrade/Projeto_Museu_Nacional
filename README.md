@@ -4,7 +4,7 @@
 
 ## 💻 Sobre o projeto
 
-Projeto desenvolvido para colocar a aplicação de novos conhecimentos.
+Projeto desenvolvido para colocar a aplicação de novos conhecimentos em HTML e CSS.
 
 ## :dart: Objetivo do Projeto
 
@@ -16,6 +16,13 @@ Praticar os conhecimentos adquiridos como:
 -Utilização de formulários
 
 ```
+
+## :wrench: Ferramentas Utilizadas
+
+<div style="display: inline_block"> <br>  
+  <img align="center" alt="cleuber-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="cleuber-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">  
+</div> <br> 
 
 ## :pager: Tela principal da Site Museu Nacional
 
