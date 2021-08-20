@@ -27,8 +27,13 @@ Praticar os conhecimentos adquiridos como:
 ## :pager: Tela principal da Site Museu Nacional
 
  <img src="img/museunacional.jpg" alt="Tela Principal">
+ 
+## :globe_with_meridians: Link para acessar site no GitHubPages
 
- # 👷 Como rodar
+Para visualizar o site no GitHubPages <a href="https://cleuber-andrade.github.io/Projeto_Museu_Nacional/" target="_blank">Clique aqui</a>
+ 
+
+## 👷 Como rodar
 
 ```bash
 # Clonar o repositório
